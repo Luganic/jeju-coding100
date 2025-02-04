@@ -1,6 +1,6 @@
 const star = 5;
 
-for(let i = 1; i <= level; i++){
+for(let i = 1; i <= star; i++){
   console.log("*");
 }
 
@@ -15,7 +15,7 @@ for(let i = 1; i <= level; i++){
 
 const star = 5;
 let tree="";
-for(let i = 1; i <= level; i++){
+for(let i = 1; i <= star; i++){
   for(let j = 1; j <= i; j++){  //i만큼 반복해주는 것이므로 j와 비교
     tree = tree + "*"
   } 
@@ -33,7 +33,7 @@ for(let i = 1; i <= level; i++){
 
 const star = 5;
 
-for(let i = 1; i <= level; i++){
+for(let i = 1; i <= star; i++){
   let tree=""; //매번 tree값을 초기화 시키기 위해 안으로 가져옴
   for(let j = 1; j <= i; j++){  
     tree = tree + "*"
@@ -51,7 +51,7 @@ for(let i = 1; i <= level; i++){
 
 const star = 5;
 
-for(let i = 1; i <= level; i++){
+for(let i = 1; i <= star; i++){
   let tree=""; 
   for(let j = 1; j <= i * 2; j++){  //* 2배
     tree = tree + "*" 
@@ -69,7 +69,7 @@ for(let i = 1; i <= level; i++){
 
 const star = 5;
 
-for(let i = 1; i <= level; i++){
+for(let i = 1; i <= star; i++){
   let tree=""; 
   for(let j = 1; j <= i * 2 - 1; j++){  // 2배 - 1
     tree = tree + "*" 
