@@ -6,7 +6,7 @@ score.sort(function (a, b) {
   return a - b;
 });
 
-while (top3.length < 3) {
+while (top3.length < 4) {
   let value = score.pop();
   if (!top3.includes(value)) {
     top3.push(value);
@@ -14,4 +14,4 @@ while (top3.length < 3) {
   count += 1;
 }
 
-console.log(count);
+console.log(count - 1);
